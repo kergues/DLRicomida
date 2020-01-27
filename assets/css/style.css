@@ -1,0 +1,151 @@
+
+body {
+  color: #373A3C;
+  font-family: 'Cabin', sans-serif;
+}
+h1 {
+  color: #ffffff;
+  font-size: 3.25em;
+  font-family: 'Lobster', cursive;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+}
+h3 {
+  font-weight: 700;
+  font-size: 2em;
+}
+h4 {
+  font-weight: 700;
+  font-size: 1.75em;
+}
+h5 {
+  font-weight: 700;
+  font-size: 1.25em;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+p {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.375em;
+}
+hr {
+    border-top: 2px solid #000000;
+}
+.space {
+  margin-right: 1em;
+}
+.contenedor {
+  margin: 0;
+}
+#principal h2 {
+  padding: 0 1.75em 0 0;
+  text-align: left;
+}
+#newsletter h2{
+  color:#ffffff;
+  padding: 0.135em 0;
+}
+#newsletter h4{
+  color: #ffffff;
+  text-align: center;
+  padding: 0.275em 0;
+  font-weight: 400;
+}
+#newsletter h4 span{
+  font-family: 'Lobster', cursive;
+}
+#newsletter {
+  padding: 2.75em 0;
+}
+footer {
+  padding: 1.575em 0;
+  font-size: 0.725em;
+}
+.principal, .c-slide, .receta, .c-deck {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.navbar-dark .navbar-brand {
+  font-size: 0.725em;
+  font-family: 'Lobster', cursive;
+}
+.btn-outline-dark {
+    color: #373A3C;
+    border-color: #DDDDDD;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.carousel-indicators {
+	left: 0;
+	top: auto;
+  bottom: -3.5em;
+}
+#carouselRicomida .carousel-indicators li {
+  margin-top: 4em;
+  box-sizing: border-box;
+  width: 0.875em;
+  height: 0.875em;
+  border-radius: 50%;
+  background: #a3a3a3;
+}
+#carouselRicomida .carousel-indicators li.active {
+background: #707070;
+}
+/* Small devices (landscape phones, 576px and up)  */
+@media (max-width: 576px) {
+  .pb-5 {
+    padding-bottom: 0!important;
+  }
+  h2 {
+    font-size: 2em;
+}
+  h3 {
+      font-size: 1.575em;
+  }
+  .principal, .receta, .c-deck {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  #principal h2 {
+    padding: 0.75em 0 0.125em 0;
+    text-align: center;
+  }
+  #principal h4 {
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (max-width: 768px) {
+  #carousel-slider{
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) {
+  .contenedor {
+      margin: 0 4.175em;
+  }
+  #carouselRicomida .carousel-indicators li {
+    margin-top: 4em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+  .contenedor {
+    margin: 0 9.75em;
+  }
+ }
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --danger: #dc3545;
+}
