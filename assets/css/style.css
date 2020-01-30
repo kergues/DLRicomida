@@ -1,4 +1,7 @@
-
+body{
+  margin: 0;
+  padding: 0;
+}
 body {
   color: #373A3C;
   font-family: 'Cabin', sans-serif;
